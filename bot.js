@@ -248,10 +248,7 @@ client.on('message', message => {
      مستوى الصوت 1-100
        
      PREFIX = ${prefix}
-     PING = ${Date.now() - message.createdTimestamp}ms
-     FOR HELP = @! PReDaT0R 'ᴬᴳ#0001
-    By : ! PREDATOR ,
- 
+     PING = ${Date.now() - message.createdTimestamp}m
       message.channel.send({embed});
      }
     });
