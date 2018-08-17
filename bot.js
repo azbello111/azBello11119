@@ -258,7 +258,7 @@ client.on('message', message => {
  
  
 client.on('message', message => {
-var prefix = "$";
+var prefix = "|";
  
   if (!message.content.startsWith(prefix)) return;
   var args = message.content.split(' ').slice(1);
