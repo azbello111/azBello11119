@@ -248,7 +248,10 @@ client.on('message', message => {
      مستوى الصوت 1-100
        
      PREFIX = ${prefix}
-     PING = ${Date.now() - message.createdTimestamp}m
+     PING = ${Date.now() - message.createdTimestamp}ms
+     FOR HELP = <@337457211875917834>
+    By : ! OsTaaZz SyTrAAءء $ `)
+ 
       message.channel.send({embed});
      }
     });
